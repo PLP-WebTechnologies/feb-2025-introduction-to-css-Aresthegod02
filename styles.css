@@ -1,0 +1,42 @@
+/* Universal selector to normalize spacing and box model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* ID selector to style the main content area */
+  #main-container {
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 600px;
+    border: 2px solid #ddd;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Class selector to style the heading */
+  .title {
+    color: #2a9d8f;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  /* Class selector to style the image */
+  .featured-img {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #264653;
+    margin: 20px 0;
+  }
+  
+  /* Class selector for additional note styling */
+  .note {
+    font-style: italic;
+    padding: 10px;
+    background-color: #e9c46a;
+    border-left: 5px solid #f4a261;
+    margin-top: 20px;
+  }
+  
